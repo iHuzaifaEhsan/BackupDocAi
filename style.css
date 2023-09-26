@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+nav{
+    background-color: black;
+}
+.logo{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+}
+.Quote-btn {
+    background-color: blue ;
+    color: white;
+    border: 0;
+    padding: 20px;
+    border-radius: 30px;
+    font-size:16px ;
+}
+.Quote-btn:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s ease;
+}
+h2{
+    font-family: jockey one;
+    font-weight:400;
+    margin-left: 7px;
+}
+h6{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Skull Image */
+
+.isdiv{
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.isleft{
+    display: grid;
+    grid-template-columns: auto auto;
+  padding: 10px;
+}
+
+.isleft>div{
+  padding: 20px;
+  font-size: 20px;
+}
+
+
+/* landing page */
+
+
+.LP-Heading{
+    background-color: #092555;
+    width: 98.7vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    /* position: absolute; */
+}
+
+.H-para{
+    font-size: 19px;
+    color: white;
+}
+.upload-btn{
+    background-color: blue ;
+    color: white;
+    border: 0;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size:16px ;
+    margin-right: 11px;
+    margin: 50px;
+}
+.upload-btn:hover{
+    background-color: white;
+    transition: 0.5s ease-in-out;
+    color: black;
+}
+.slider-btn{
+    background-color: rgb(106, 106, 133) ;
+    color: white;
+    border: 0;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 16px ;
+}
+.slider-btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+.fourParas{
+    background-color: #092555;
+    /* font-size: 18px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backcolorParas{
+    display: flex;
+    width: 80vw;
+}
+.para{
+    padding: 20px;
+    color: white;
+    border-top:0;
+    border-left: 5px solid blue;
+}
+
+/* features page */
+
+.features{
+    background-color: #00060F;
+    width: 98.7vw;
+    height: 100vh;
+}
+.tagline{
+    background-color: white;
+    display: inline-block;
+    margin-left: 15em;
+    padding: 15px;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+}
+.tagline > h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.features > img{
+    float: right;
+    width: 45vw;
+    margin-top: 20px;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #00060F;
+    padding-top: 10em;
+}
+
+
+.card {
+    background-color: white;
+    width: 300px;
+    height: 400px;
+    padding: 0;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  .card * {
+    transition: 0.3s ease all;
+  }
+  
+  .card img {
+    margin: 0;
+    width: 300px;
+    height: 224px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .card h3 {
+    margin: 0;
+    padding: 12px 12px 48px;
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .card .focus-content {
+    display: block;
+    padding: 8px 12px;
+  }
+  
+  .card p {
+    margin: 0;
+    line-height: 1.5;
+  }
+  
+  .card:hover img, .card:focus-within img {
+    margin-top: -80px;
+  }
+  
+  .card:hover h3, .card:focus-within h3 {
+    padding: 8px 12px 0;
+  }
+
+
+  /* ################# */
+
+
+  .about{
+    padding-top: 20px;
+    width: 98.7vw;
+
+    background-color: #00060F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .banner{
+    width: 100vw;
+    background-color: #102151;
+    color: white;
+  }
+  .banner > h1{
+    font-size: 41px ;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1.5em;
+  }
+  .bannerpara > p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    padding: 60px;
+  }
+
+  .how{
+    padding-bottom: 30px;
+  }
+
+.catalog{
+    background-color: rgb(106, 106, 133) ;
+    color: white;
+    border: 0;
+    padding: 15px 60px;
+    border-radius: 30px;
+    font-size: 16px ;
+    
+}
+.catalog:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s ease-in-out;
+}
+
+.antest{
+    width:98.7vw ;
+    height: 70vh;
+    background-color: #242834;
+    display: flex;
+    justify-content: center;
+}
+
+.taglineT{
+    background-color: white;
+    display: inline-block;
+    padding: 10px 65px;
+    border-radius: 0 0 15px 15px;
+    position: absolute;
+}
+
+.paras{
+    width: 80vw;
+    /* height: 50vh; */
+    display: flex;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.para1 , .para2 , .para3{
+    padding: 30px;
+    color: white;
+    border-top:0;
+    border-left: 10px solid blue;
+    border-radius: 10px;
+}
+
+.testimg{
+    display: flex;
+    justify-content: space-between;
+}
+
+.firimg{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.wr{
+    padding-left: 30px;
+}
+
+.patsec{
+    background-color: #00060F;
+   max-height:  140px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    
+}
+
+.patsec>div{
+    margin-top: 15px;
+    max-height: 140px;
+    /* border: 1px solid white; */
+    padding: 40px 15px;
+}
+.img1 img{
+    height: 45px;
+width: 90%;
+
+}
+
+.faq{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+
+    background-color: #00060F;
+    height: 70vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 70px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #242834;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.firstfooter> *{
+    margin: 20px;
+}
+
+.last>input{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 50px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.last>button{
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.img1{
+    height: 100%;
+    top: 0;
+    --column-width: 194px;
+    --column-flex: 194;
+}
+
+/* animation  */
+/* Add this CSS for the fade-in animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Apply the animation to elements you want to animate */
+.animate-fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+/* Define custom animation delays for each element */
+.animate-fade-in:nth-child(odd) {
+    animation-delay: 0.5s;
+}
+
+.animate-fade-in:nth-child(even) {
+    animation-delay: 1s;
+}
